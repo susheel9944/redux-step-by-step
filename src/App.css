@@ -12,6 +12,7 @@
   background-color: red;
   border: 0px;
   padding: 10px;
+  margin-bottom: 15px;
   border-radius: 4px;
   color: #fff;
   box-shadow: #333 0px 1px 5px;
@@ -40,7 +41,6 @@
     top: 1%;
 }
 .cart-count{
-  
     position: absolute;
     right: 10px;
     top: 12px;
@@ -51,6 +51,10 @@
     height: 20px;
     border-radius: 50%;
     color: #fff;
+}
+button.remove-cart-btn {
+  background-color: blue;
+  margin-top: 30pxs;
 }
 
 @media (prefers-reduced-motion: no-preference) {
